@@ -29,7 +29,7 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
                   p2++;cur++;
             }      
       }
-      // 数组复制
+      // 数组复制    
       for (size_t i = 0; i < nums1Size; i++)
       {
             nums1[i] = sorted[i];
